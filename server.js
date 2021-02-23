@@ -23,7 +23,8 @@ var app = express()
 const http = require("http");
 
 const host = 'localhost';
-const port = 8000;
+const PORT = process.env.PORT || 5000
+
 app.use(express.static('public'));
 
 
@@ -59,6 +60,6 @@ app.use(function(req, res, next){
   res.type('txt').send('Not found');
 });
 
-app.listen(port, () => {
+app.listen(PORT, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })

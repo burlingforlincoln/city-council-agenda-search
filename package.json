@@ -1,0 +1,24 @@
+{
+  "name": "city-council-agenda-search",
+  "version": "1.0.0",
+  "description": "Lincoln City Council Agenda Search",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burlingforlincoln/city-council-agenda-search.git"
+  },
+  "author": "Eric Burling",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burlingforlincoln/city-council-agenda-search/issues"
+  },
+  "homepage": "https://github.com/burlingforlincoln/city-council-agenda-search#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "minisearch": "^3.0.2"
+  }
+}
